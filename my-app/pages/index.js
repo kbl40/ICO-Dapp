@@ -7,6 +7,7 @@ import nftABI from "../constants/nftABI.json";
 import tokenABI from "../constants/tokenABI.json";
 import styles from '../styles/Home.module.css'
 
+// Home function
 export default function Home() {
   // Create a BigNumber `0`
   const zero = BigNumber.from(0);
